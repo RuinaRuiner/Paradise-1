@@ -1973,6 +1973,10 @@
 	icon_state = "floor4"
 	},
 /area/shuttle/ussp)
+"aWZ" = (
+/obj/machinery/vending/snack,
+/turf/simulated/floor/wood,
+/area/centcom/zone1)
 "aXa" = (
 /obj/machinery/vending/coffee/free,
 /turf/simulated/floor/plasteel/grimy,
@@ -2710,6 +2714,13 @@
 	icon_state = "white"
 	},
 /area/centcom/jail)
+"brU" = (
+/obj/machinery/vending/cigarette,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/wood,
+/area/centcom/zone1)
 "bsK" = (
 /obj/item/reagent_containers/food/drinks/bottle/vodka{
 	pixel_x = -8;
@@ -3411,6 +3422,22 @@
 	icon_state = "floorgrime"
 	},
 /area/ninja/holding)
+"bHE" = (
+/obj/item/storage/box/beakers/bluespace,
+/obj/item/storage/box/drinkingglasses,
+/obj/item/storage/box/drinkingglasses,
+/obj/item/storage/box/drinkingglasses,
+/obj/item/storage/box/drinkingglasses,
+/obj/item/storage/box/drinkingglasses,
+/obj/item/storage/box/drinkingglasses,
+/obj/item/storage/box/drinkingglasses,
+/obj/item/storage/box/drinkingglasses,
+/obj/item/storage/box/drinkingglasses,
+/obj/item/storage/box/drinkingglasses,
+/obj/item/reagent_containers/iv_bag/bloodsynthetic/oxygenis,
+/obj/structure/closet/secure_closet/bar,
+/turf/simulated/floor/wood,
+/area/centcom/zone1)
 "bHH" = (
 /obj/effect/turf_decal{
 	icon_state = "grass_edge_medium_corner"
@@ -6092,12 +6119,6 @@
 	icon_state = "darkblue"
 	},
 /area/centcom/zone1)
-"daj" = (
-/obj/structure/chair/sofa{
-	dir = 4
-	},
-/turf/simulated/floor/carpet/red,
-/area/centcom/zone1)
 "daD" = (
 /obj/item/twohanded/required/kirbyplants{
 	layer = 4
@@ -8308,12 +8329,6 @@
 	icon_state = "navybluecornersalt"
 	},
 /area/syndicate_mothership/control)
-"elD" = (
-/obj/structure/chair/sofa{
-	dir = 5
-	},
-/turf/simulated/floor/carpet/red,
-/area/centcom/zone1)
 "elS" = (
 /obj/machinery/door/airlock/external{
 	aiControlDisabled = 1;
@@ -17463,6 +17478,15 @@
 	icon_state = "white"
 	},
 /area/centcom/zone3)
+"jlj" = (
+/obj/structure/closet/fireaxecabinet{
+	pixel_y = 32
+	},
+/turf/simulated/floor/plasteel{
+	dir = 1;
+	icon_state = "darkblue"
+	},
+/area/centcom/zone1)
 "jlp" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -20111,6 +20135,15 @@
 /obj/structure/flora/junglebush/b,
 /turf/simulated/floor/indestructible/grass,
 /area/ninja/outside)
+"kBY" = (
+/obj/structure/closet/hydrant{
+	pixel_y = 32
+	},
+/turf/simulated/floor/plasteel{
+	dir = 1;
+	icon_state = "darkblue"
+	},
+/area/centcom/zone1)
 "kBZ" = (
 /obj/effect/turf_decal{
 	dir = 8;
@@ -25113,6 +25146,12 @@
 	icon_state = "white_walls_corners"
 	},
 /area/shuttle/supply)
+"mMz" = (
+/obj/structure/chair/sofa/left{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/red,
+/area/centcom/zone1)
 "mMH" = (
 /turf/simulated/wall/indestructible{
 	icon_state = "iron10"
@@ -29434,6 +29473,13 @@
 	},
 /turf/simulated/floor/carpet/black,
 /area/centcom/bridge)
+"oCu" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/structure/chair/sofa/right,
+/turf/simulated/floor/carpet/red,
+/area/centcom/zone1)
 "oCT" = (
 /obj/structure/closet/secure_closet/guncabinet{
 	anchored = 1;
@@ -29597,6 +29643,15 @@
 /obj/effect/decal/cleanable/cobweb,
 /turf/simulated/floor/wood,
 /area/centcom/zone2)
+"oHC" = (
+/obj/structure/closet/medical_wall{
+	pixel_y = 32
+	},
+/turf/simulated/floor/plasteel{
+	dir = 1;
+	icon_state = "darkblue"
+	},
+/area/centcom/zone1)
 "oHE" = (
 /obj/structure/shuttle/engine/heater{
 	dir = 4;
@@ -29956,49 +30011,6 @@
 	icon_state = "fancy-wood-cherry"
 	},
 /area/syndicate_mothership/infteam)
-"oOb" = (
-/obj/structure/rack/holorack,
-/obj/item/organ/internal/cyberimp/brain/anti_drop,
-/obj/item/organ/internal/cyberimp/brain/anti_drop,
-/obj/item/organ/internal/cyberimp/brain/anti_sleep/hardened,
-/obj/item/organ/internal/cyberimp/brain/anti_sleep/hardened,
-/obj/item/organ/internal/cyberimp/brain/anti_stun/hardened,
-/obj/item/organ/internal/cyberimp/brain/anti_stun/hardened,
-/obj/item/organ/internal/cyberimp/chest/nutriment/plus,
-/obj/item/organ/internal/cyberimp/chest/nutriment/plus,
-/obj/item/organ/internal/cyberimp/chest/reviver/hardened,
-/obj/item/organ/internal/cyberimp/chest/reviver/hardened,
-/obj/item/organ/internal/cyberimp/eyes/hud/medical,
-/obj/item/organ/internal/cyberimp/eyes/hud/medical,
-/obj/item/organ/internal/cyberimp/eyes/thermals,
-/obj/item/organ/internal/cyberimp/eyes/thermals,
-/obj/item/organ/internal/cyberimp/mouth/breathing_tube,
-/obj/item/organ/internal/cyberimp/mouth/breathing_tube,
-/obj/item/implanter/mindshield,
-/obj/item/implanter/mindshield,
-/obj/item/organ/internal/cyberimp/arm/surgery,
-/obj/item/organ/internal/cyberimp/arm/toolset,
-/obj/item/organ/internal/cyberimp/arm/janitorial,
-/obj/effect/turf_decal/box/white,
-/obj/structure/sign/poster/contraband/revolver{
-	pixel_y = 32
-	},
-/obj/item/organ/internal/cyberimp/arm/combat/centcom{
-	color = "#aa9999";
-	desc = "An extremely powerful cybernetic implant that contains combat and utility modules not used by NT special forces, i swear";
-	icon_state = "tesla";
-	name = "Syndie specops cybernetics implant"
-	},
-/obj/item/organ/internal/cyberimp/arm/combat/centcom{
-	color = "#aa9999";
-	desc = "An extremely powerful cybernetic implant that contains combat and utility modules not used by NT special forces, i swear";
-	icon_state = "tesla";
-	name = "Syndie specops cybernetics implant"
-	},
-/turf/simulated/floor/wood{
-	icon_state = "fancy-wood-cherry"
-	},
-/area/syndicate_mothership/control)
 "oOk" = (
 /obj/structure/table/reinforced,
 /obj/item/stack/sheet/mineral/sandbags,
@@ -30823,15 +30835,6 @@
 	},
 /turf/simulated/floor/mineral/plastitanium,
 /area/syndicate_mothership/infteam)
-"pjK" = (
-/obj/structure/sign/poster/official/religious{
-	pixel_y = -32
-	},
-/obj/structure/chair/sofa{
-	dir = 1
-	},
-/turf/simulated/floor/carpet/red,
-/area/centcom/zone1)
 "pko" = (
 /obj/effect/turf_decal{
 	icon_state = "golden_stripes"
@@ -33918,13 +33921,6 @@
 /obj/structure/table/wood/poker,
 /turf/simulated/floor/carpet/black,
 /area/syndicate_mothership)
-"qHK" = (
-/obj/machinery/light/small{
-	dir = 1
-	},
-/obj/structure/chair/sofa,
-/turf/simulated/floor/carpet/red,
-/area/centcom/zone1)
 "qIk" = (
 /obj/effect/turf_decal/plaque{
 	layer = 3
@@ -34282,13 +34278,6 @@
 	icon_state = "darkbluecornersalt"
 	},
 /area/syndicate_mothership/elite_squad)
-"qQT" = (
-/obj/machinery/vending/snack,
-/obj/structure/closet/hydrant{
-	pixel_y = 32
-	},
-/turf/simulated/floor/wood,
-/area/centcom/zone1)
 "qRs" = (
 /obj/effect/turf_decal/delivery/white,
 /obj/machinery/door/airlock/wood/glass{
@@ -35850,6 +35839,12 @@
 	},
 /turf/simulated/floor/wood,
 /area/centcom/zone3)
+"rBw" = (
+/obj/structure/chair/sofa/right{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/red,
+/area/centcom/zone1)
 "rCg" = (
 /obj/structure/chair{
 	dir = 1
@@ -39532,16 +39527,6 @@
 	},
 /turf/simulated/floor/shuttle/transparent_floor,
 /area/shuttle/ninja)
-"tmi" = (
-/obj/machinery/vending/cigarette,
-/obj/structure/closet/fireaxecabinet{
-	pixel_y = 32
-	},
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/simulated/floor/wood,
-/area/centcom/zone1)
 "tmG" = (
 /obj/structure/chair/comfy/beige{
 	dir = 4;
@@ -40892,33 +40877,6 @@
 	icon_state = "dark"
 	},
 /area/centcom/court)
-"tRF" = (
-/obj/structure/rack/holorack,
-/obj/item/organ/internal/cyberimp/brain/anti_drop,
-/obj/item/organ/internal/cyberimp/brain/anti_drop,
-/obj/item/organ/internal/cyberimp/brain/anti_sleep/hardened,
-/obj/item/organ/internal/cyberimp/brain/anti_sleep/hardened,
-/obj/item/organ/internal/cyberimp/brain/anti_stun/hardened,
-/obj/item/organ/internal/cyberimp/brain/anti_stun/hardened,
-/obj/item/organ/internal/cyberimp/chest/nutriment/plus,
-/obj/item/organ/internal/cyberimp/chest/nutriment/plus,
-/obj/item/organ/internal/cyberimp/chest/reviver/hardened,
-/obj/item/organ/internal/cyberimp/chest/reviver/hardened,
-/obj/item/organ/internal/cyberimp/eyes/hud/medical,
-/obj/item/organ/internal/cyberimp/eyes/hud/medical,
-/obj/item/organ/internal/cyberimp/eyes/thermals,
-/obj/item/organ/internal/cyberimp/eyes/thermals,
-/obj/item/organ/internal/cyberimp/mouth/breathing_tube,
-/obj/item/organ/internal/cyberimp/mouth/breathing_tube,
-/obj/item/implanter/mindshield,
-/obj/item/implanter/mindshield,
-/obj/item/organ/internal/cyberimp/arm/combat/centcom,
-/obj/item/organ/internal/cyberimp/arm/combat/centcom,
-/obj/item/organ/internal/cyberimp/arm/surgery,
-/obj/item/organ/internal/cyberimp/arm/toolset,
-/obj/item/organ/internal/cyberimp/arm/janitorial,
-/turf/simulated/floor/wood,
-/area/centcom/specops)
 "tRX" = (
 /obj/machinery/photocopier,
 /obj/structure/window/reinforced,
@@ -41210,33 +41168,6 @@
 	icon_state = "dark"
 	},
 /area/centcom/zone1)
-"tZS" = (
-/obj/structure/rack/holorack,
-/obj/item/organ/internal/cyberimp/brain/anti_drop,
-/obj/item/organ/internal/cyberimp/brain/anti_drop,
-/obj/item/organ/internal/cyberimp/brain/anti_sleep/hardened,
-/obj/item/organ/internal/cyberimp/brain/anti_sleep/hardened,
-/obj/item/organ/internal/cyberimp/brain/anti_stun/hardened,
-/obj/item/organ/internal/cyberimp/brain/anti_stun/hardened,
-/obj/item/organ/internal/cyberimp/chest/nutriment/plus,
-/obj/item/organ/internal/cyberimp/chest/nutriment/plus,
-/obj/item/organ/internal/cyberimp/chest/reviver/hardened,
-/obj/item/organ/internal/cyberimp/chest/reviver/hardened,
-/obj/item/organ/internal/cyberimp/eyes/hud/medical,
-/obj/item/organ/internal/cyberimp/eyes/hud/medical,
-/obj/item/organ/internal/cyberimp/eyes/thermals,
-/obj/item/organ/internal/cyberimp/eyes/thermals,
-/obj/item/organ/internal/cyberimp/mouth/breathing_tube,
-/obj/item/organ/internal/cyberimp/mouth/breathing_tube,
-/obj/item/implanter/mindshield,
-/obj/item/implanter/mindshield,
-/obj/item/organ/internal/cyberimp/arm/combat/centcom,
-/obj/item/organ/internal/cyberimp/arm/combat/centcom,
-/obj/item/organ/internal/cyberimp/arm/surgery,
-/obj/item/organ/internal/cyberimp/arm/toolset,
-/obj/item/organ/internal/cyberimp/arm/janitorial,
-/turf/simulated/floor/wood,
-/area/centcom/bridge)
 "tZV" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
@@ -41453,6 +41384,15 @@
 	icon_state = "warndarkgreycornerred"
 	},
 /area/syndicate_mothership)
+"ueD" = (
+/obj/structure/sign/poster/official/religious{
+	pixel_y = -32
+	},
+/obj/structure/chair/sofa/left{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/red,
+/area/centcom/zone1)
 "ueN" = (
 /turf/simulated/floor/plasteel{
 	icon_state = "darkyellowalt"
@@ -42156,6 +42096,49 @@
 	icon_state = "darkgrey"
 	},
 /area/syndicate_mothership)
+"utf" = (
+/obj/structure/rack/holorack,
+/obj/item/organ/internal/cyberimp/brain/anti_drop,
+/obj/item/organ/internal/cyberimp/brain/anti_drop,
+/obj/item/organ/internal/cyberimp/brain/anti_sleep/hardened,
+/obj/item/organ/internal/cyberimp/brain/anti_sleep/hardened,
+/obj/item/organ/internal/cyberimp/brain/anti_stun/hardened,
+/obj/item/organ/internal/cyberimp/brain/anti_stun/hardened,
+/obj/item/organ/internal/cyberimp/chest/nutriment/plus,
+/obj/item/organ/internal/cyberimp/chest/nutriment/plus,
+/obj/item/organ/internal/cyberimp/chest/reviver/hardened,
+/obj/item/organ/internal/cyberimp/chest/reviver/hardened,
+/obj/item/organ/internal/cyberimp/eyes/hud/medical,
+/obj/item/organ/internal/cyberimp/eyes/hud/medical,
+/obj/item/organ/internal/cyberimp/eyes/thermals,
+/obj/item/organ/internal/cyberimp/eyes/thermals,
+/obj/item/organ/internal/cyberimp/mouth/breathing_tube,
+/obj/item/organ/internal/cyberimp/mouth/breathing_tube,
+/obj/item/implanter/mindshield,
+/obj/item/implanter/mindshield,
+/obj/item/organ/internal/cyberimp/arm/surgery,
+/obj/item/organ/internal/cyberimp/arm/toolset,
+/obj/item/organ/internal/cyberimp/arm/janitorial,
+/obj/effect/turf_decal/box/white,
+/obj/structure/sign/poster/contraband/revolver{
+	pixel_y = 32
+	},
+/obj/item/organ/internal/cyberimp/arm/combat/centcom{
+	color = "#aa9999";
+	desc = "An extremely powerful cybernetic implant that contains combat and utility modules not used by NT special forces, i swear";
+	icon_state = "tesla";
+	name = "Syndie specops cybernetics implant"
+	},
+/obj/item/organ/internal/cyberimp/arm/combat/centcom{
+	color = "#aa9999";
+	desc = "An extremely powerful cybernetic implant that contains combat and utility modules not used by NT special forces, i swear";
+	icon_state = "tesla";
+	name = "Syndie specops cybernetics implant"
+	},
+/turf/simulated/floor/wood{
+	icon_state = "fancy-wood-cherry"
+	},
+/area/syndicate_mothership/control)
 "uua" = (
 /obj/structure/shuttle/engine/heater{
 	icon_state = "heater3x3_side_inv";
@@ -43179,24 +43162,6 @@
 	icon_state = "dark"
 	},
 /area/centcom/zone2)
-"uRM" = (
-/obj/structure/closet/secure_closet/bar{
-	req_access = null
-	},
-/obj/item/storage/box/beakers/bluespace,
-/obj/item/storage/box/drinkingglasses,
-/obj/item/storage/box/drinkingglasses,
-/obj/item/storage/box/drinkingglasses,
-/obj/item/storage/box/drinkingglasses,
-/obj/item/storage/box/drinkingglasses,
-/obj/item/storage/box/drinkingglasses,
-/obj/item/storage/box/drinkingglasses,
-/obj/item/storage/box/drinkingglasses,
-/obj/item/storage/box/drinkingglasses,
-/obj/item/storage/box/drinkingglasses,
-/obj/item/reagent_containers/iv_bag/bloodsynthetic/oxygenis,
-/turf/simulated/floor/wood,
-/area/centcom/zone1)
 "uSa" = (
 /obj/docking_port/stationary/transit{
 	dwidth = 3;
@@ -43794,6 +43759,33 @@
 	icon_state = "floor4"
 	},
 /area/shuttle/syndicate)
+"vhP" = (
+/obj/structure/rack/holorack,
+/obj/item/organ/internal/cyberimp/brain/anti_drop,
+/obj/item/organ/internal/cyberimp/brain/anti_drop,
+/obj/item/organ/internal/cyberimp/brain/anti_sleep/hardened,
+/obj/item/organ/internal/cyberimp/brain/anti_sleep/hardened,
+/obj/item/organ/internal/cyberimp/brain/anti_stun/hardened,
+/obj/item/organ/internal/cyberimp/brain/anti_stun/hardened,
+/obj/item/organ/internal/cyberimp/chest/nutriment/plus,
+/obj/item/organ/internal/cyberimp/chest/nutriment/plus,
+/obj/item/organ/internal/cyberimp/chest/reviver/hardened,
+/obj/item/organ/internal/cyberimp/chest/reviver/hardened,
+/obj/item/organ/internal/cyberimp/eyes/hud/medical,
+/obj/item/organ/internal/cyberimp/eyes/hud/medical,
+/obj/item/organ/internal/cyberimp/eyes/thermals,
+/obj/item/organ/internal/cyberimp/eyes/thermals,
+/obj/item/organ/internal/cyberimp/mouth/breathing_tube,
+/obj/item/organ/internal/cyberimp/mouth/breathing_tube,
+/obj/item/implanter/mindshield,
+/obj/item/implanter/mindshield,
+/obj/item/organ/internal/cyberimp/arm/combat/centcom,
+/obj/item/organ/internal/cyberimp/arm/combat/centcom,
+/obj/item/organ/internal/cyberimp/arm/surgery,
+/obj/item/organ/internal/cyberimp/arm/toolset,
+/obj/item/organ/internal/cyberimp/arm/janitorial,
+/turf/simulated/floor/wood,
+/area/centcom/specops)
 "vhU" = (
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-6";
@@ -45529,13 +45521,6 @@
 	icon_state = "dark"
 	},
 /area/syndicate_mothership/cargo)
-"vYj" = (
-/obj/machinery/vending/cola/free,
-/obj/structure/closet/medical_wall{
-	pixel_y = 32
-	},
-/turf/simulated/floor/wood,
-/area/centcom/zone1)
 "vYs" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/delivery/white,
@@ -47210,6 +47195,33 @@
 	icon_state = "darkred"
 	},
 /area/shuttle/escape)
+"wUc" = (
+/obj/structure/rack/holorack,
+/obj/item/organ/internal/cyberimp/brain/anti_drop,
+/obj/item/organ/internal/cyberimp/brain/anti_drop,
+/obj/item/organ/internal/cyberimp/brain/anti_sleep/hardened,
+/obj/item/organ/internal/cyberimp/brain/anti_sleep/hardened,
+/obj/item/organ/internal/cyberimp/brain/anti_stun/hardened,
+/obj/item/organ/internal/cyberimp/brain/anti_stun/hardened,
+/obj/item/organ/internal/cyberimp/chest/nutriment/plus,
+/obj/item/organ/internal/cyberimp/chest/nutriment/plus,
+/obj/item/organ/internal/cyberimp/chest/reviver/hardened,
+/obj/item/organ/internal/cyberimp/chest/reviver/hardened,
+/obj/item/organ/internal/cyberimp/eyes/hud/medical,
+/obj/item/organ/internal/cyberimp/eyes/hud/medical,
+/obj/item/organ/internal/cyberimp/eyes/thermals,
+/obj/item/organ/internal/cyberimp/eyes/thermals,
+/obj/item/organ/internal/cyberimp/mouth/breathing_tube,
+/obj/item/organ/internal/cyberimp/mouth/breathing_tube,
+/obj/item/implanter/mindshield,
+/obj/item/implanter/mindshield,
+/obj/item/organ/internal/cyberimp/arm/combat/centcom,
+/obj/item/organ/internal/cyberimp/arm/combat/centcom,
+/obj/item/organ/internal/cyberimp/arm/surgery,
+/obj/item/organ/internal/cyberimp/arm/toolset,
+/obj/item/organ/internal/cyberimp/arm/janitorial,
+/turf/simulated/floor/wood,
+/area/centcom/bridge)
 "wUF" = (
 /turf/simulated/floor/wood,
 /area/centcom/zone1)
@@ -63925,7 +63937,7 @@ cjD
 msh
 dWJ
 qex
-oOb
+utf
 uzi
 hMW
 tAz
@@ -85751,7 +85763,7 @@ kpi
 uWf
 grD
 oFO
-tZS
+wUc
 fMQ
 fMQ
 tbo
@@ -99074,7 +99086,7 @@ tqy
 rpk
 sfl
 onc
-uRM
+bHE
 sAi
 tWd
 jEu
@@ -99090,7 +99102,7 @@ dsj
 ueb
 ihM
 onc
-vYj
+frx
 bBI
 eNm
 ePS
@@ -99347,7 +99359,7 @@ aVH
 eTD
 rag
 onc
-tmi
+brU
 kAE
 tak
 nxD
@@ -99604,7 +99616,7 @@ aVH
 tlE
 ihM
 onc
-qQT
+aWZ
 kAE
 tak
 waR
@@ -99886,7 +99898,7 @@ nWU
 mzH
 xhn
 cWM
-tRF
+vhP
 fpg
 mvP
 nAN
@@ -100376,7 +100388,7 @@ tak
 onc
 onc
 onc
-kAE
+oHC
 tak
 nxD
 nxD
@@ -101404,7 +101416,7 @@ onc
 onc
 onc
 onc
-kAE
+jlj
 tak
 xSv
 wUF
@@ -103203,7 +103215,7 @@ onc
 onc
 onc
 onc
-kAE
+kBY
 ekH
 onc
 onc
@@ -104224,8 +104236,8 @@ cKy
 kcU
 siO
 kcU
-daj
-elD
+kcU
+rBw
 onc
 kAE
 oKG
@@ -104739,7 +104751,7 @@ kcU
 kcU
 kcU
 xRz
-pjK
+ueD
 onc
 ajO
 oNF
@@ -105248,7 +105260,7 @@ wLM
 ctv
 wLM
 onc
-qHK
+oCu
 qRN
 xRz
 rBn
@@ -105508,7 +105520,7 @@ onc
 eXF
 awg
 awg
-awg
+mMz
 kcU
 onc
 onc
